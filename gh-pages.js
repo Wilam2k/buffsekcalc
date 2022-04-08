@@ -3,7 +3,7 @@ var ghpages = require('gh-pages');
 ghpages.publish(
     'public', // path to public directory
     {
-        branch: 'master',
+        branch: 'gh-pages',
         repo: 'https://github.com/Wilam2k/buffsekcalc.git', // Update to point to your repository  
         user: {
             name: 'William Sjostrom', // update to use your name
